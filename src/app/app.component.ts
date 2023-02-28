@@ -6,6 +6,7 @@ import { DOCUMENT } from '@angular/common';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
+
 export class AppComponent implements OnInit {
   get isDarkMode(): boolean {
     return this.currentTheme === 'theme-dark';

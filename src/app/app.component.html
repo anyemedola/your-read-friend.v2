@@ -1,6 +1,26 @@
-<app-navigation
-  (darkModeSwitched)="switchMode($event)"
-  [isDarkMode]="isDarkMode"
-></app-navigation>
+<app-navigation (darkModeSwitched)="switchMode($event)" [isDarkMode]="isDarkMode"></app-navigation>
 <main class="content">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Create Account</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="card-content">
+      <form>
+        <mat-form-field appearance="outline">
+          <mat-label>Full name</mat-label>
+          <input matInput placeholder="Derek Vanderwal" value="">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Mail</mat-label>
+          <input matInput placeholder="derek@oul.it" value="">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Mail</mat-label>
+          <input matInput placeholder="derek@oul.it" value="">
+        </mat-form-field>
+      </form>
+    </mat-card-content>
+  </mat-card>
 </main>
