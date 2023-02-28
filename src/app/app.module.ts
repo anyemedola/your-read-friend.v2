@@ -11,11 +11,15 @@ import { MatFormFieldControl, MatFormFieldModule } from '@angular/material/form-
 import { MatSelectModule } from '@angular/material/select';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
+import { LoginComponentComponent } from './login-component/login-component.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
+    LoginComponentComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +31,8 @@ import { MatInputModule } from '@angular/material/input';
     MatSelectModule,
     MatCardModule,
     MatInputModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent,]
